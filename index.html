@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Anastácio | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<div id="particles"></div>
+
+<header>
+    <div class="logo">
+        <img src="avatar.png" alt="Fernanda Anastácio" class="avatar-img">
+    </div>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Fernanda <span>Anastácio</span></h1>
+    <h2 id="typing"></h2>
+    <p>Estudante de Desenvolvimento de Sistemas no SENAI. Criando aplicações modernas e APIs.</p>
+    <a href="https://github.com/feanastacio" target="_blank" class="btn">Ver GitHub</a>
+</section>
+
+<section id="sobre">
+    <h2>SOBRE <span>MIM</span></h2>
+    <div class="grid-sobre">
+        <div class="card-sobre">
+            <div class="icon-title">
+                <div class="icon-box"><i class="fas fa-briefcase"></i></div>
+                <h3>Experiência Profissional</h3>
+            </div>
+            <p>Auxilio no atendimento ao cliente na <strong>PFnutripet</strong>. Atuo com pedidos, embalagens e redes sociais. Também trabalho como freelancer na <strong>Ice Goela</strong>, realizando atendimento presencial e por iFood.</p>
+        </div>
+
+        <div class="card-sobre">
+            <div class="icon-title">
+                <div class="icon-box"><i class="fas fa-code"></i></div>
+                <h3>Experiência Técnica</h3>
+            </div>
+            <p>No SENAI, aprofundei conhecimentos em <strong>testes de software e desenvolvimento de sistemas</strong>. Domínio de JavaScript, C#, React.js e SQL Server. Desenvolvimento de APIs em C# integrando sistemas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="formacao">
+    <h2>FORMAÇÃO <span>ACADÊMICA</span></h2>
+    <div class="timeline">
+        <div class="formacao-item">
+            <div class="icon-circle"><i class="fas fa-graduation-cap"></i></div>
+            <div class="formacao-content">
+                <h3>Ensino Médio</h3>
+                <p>Escola Estadual Maria Trujilo Torloni</p>
+                <span>2022 - 2025</span>
+            </div>
+        </div>
+
+        <div class="formacao-item">
+            <div class="icon-circle"><i class="fas fa-laptop-code"></i></div>
+            <div class="formacao-content">
+                <h3>Desenvolvimento de Sistemas</h3>
+                <p>SENAI Paulo Antonio Skaf</p>
+                <span>2024 - 2025</span>
+            </div>
+        </div>
+
+        <div class="formacao-item">
+            <div class="icon-circle"><i class="fas fa-brain"></i></div>
+            <div class="formacao-content">
+                <h3>Microsoft AI-900</h3>
+                <p>Implantação de IA em Nuvem - SENAI</p>
+                <span>2025</span>
+            </div>
+        </div>
+
+        <div class="formacao-item item-bronze">
+            <div class="icon-circle"><i class="fas fa-medal"></i></div>
+            <div class="formacao-content">
+                <h3>Medalhista Olimpíadas de Matemática</h3>
+                <p>Categoria Bronze</p>
+                <span>2024</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>MINHAS <span>SKILLS</span></h2>
+    <div class="skills">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <span><i class="fab fa-js"></i> JavaScript</span>
+        <span><i class="fab fa-react"></i> React</span>
+        <span><i class="fas fa-code"></i> C# / .NET</span>
+        <span><i class="fas fa-database"></i> SQL Server</span>
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fab fa-microsoft"></i> Azure</span>
+    </div>
+</section>
+
+<section id="projetos">
+    <h2>MEUS <span>PROJETOS</span></h2>
+    <div id="repos"></div>
+</section>
+
+<section id="contato">
+    <h2>VAMOS <span>CONVERSAR?</span></h2>
+    <div class="contato-container">
+        <div class="contato-item">
+            <a href="mailto:fehanastaci008@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <p>Email</p>
+                <span>fehanastaci008@gmail.com</span>
+            </a>
+        </div>
+        
+        <div class="contato-item">
+            <a href="https://api.whatsapp.com/send?phone=5511972452409" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                <p>WhatsApp</p>
+                <span>(11) 97245-2409</span>
+            </a>
+        </div>
+
+        <div class="contato-item">
+            <a href="https://www.linkedin.com/in/fernanda-anast%C3%A1cio-878b7539a/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                <p>LinkedIn</p>
+                <span>Perfil Profissional</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Fernanda Anastácio | Desenvolvedora Back-end</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
