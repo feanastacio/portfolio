@@ -421,3 +421,10 @@ section h2 span {
     /*border: 2px solid #ff4fd8; /* Borda rosa para combinar com o tema */
     display: block;
 }
+
+.icon-circle img{
+    width: 20px;
+    height: 20px;
+
+    filter: brightness(0) invert(1);
+}
